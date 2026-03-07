@@ -1,13 +1,13 @@
 class Event < Formula
   desc "CLI tool for managing Apple Reminders and Calendar via EventKit"
   homepage "https://github.com/FradSer/event"
-  url "https://github.com/FradSer/event/releases/download/v0.1.0/event-macos.zip"
-  sha256 "00b1dc21866ae0d331b7c51e130b6c7eb00f0ddf531f8c048f047430e50eeed2"
+  url "https://github.com/FradSer/event/releases/download/v0.1.0/event--arm64.tar.gz"
+  sha256 "ffab8f970bfb313d6b333cdcdeda04cf294dedeae3311f6e8b792623f9837754"
   version "0.1.0"
   license "MIT"
 
   def install
-    bin.install "archive/event"
+    bin.install "event"
   end
 
   test do
