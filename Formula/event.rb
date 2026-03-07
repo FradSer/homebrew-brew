@@ -1,16 +1,13 @@
 class Event < Formula
   desc "CLI tool for managing Apple Reminders and Calendar via EventKit"
   homepage "https://github.com/FradSer/event"
-  url "https://github.com/FradSer/event/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  url "https://github.com/FradSer/event/releases/download/v0.1.0/event-macos.zip"
+  sha256 "00b1dc21866ae0d331b7c51e130b6c7eb00f0ddf531f8c048f047430e50eeed2"
   version "0.1.0"
   license "MIT"
 
-  depends_on swift: :build
-
   def install
-    system "swift", "build", "-c", "release", "--disable-sandbox"
-    bin.install ".build/release/event"
+    bin.install "archive/event"
   end
 
   test do
