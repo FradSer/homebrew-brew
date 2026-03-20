@@ -1,12 +1,20 @@
-# FradSer's Homebrew Tap
+# FradSer's Homebrew Tap ![](https://img.shields.io/badge/homebrew-tap-orange)
 
-Personal Homebrew formulae.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Installation
+**English** | [简体中文](README.zh-CN.md)
+
+Personal Homebrew formulae for macOS and Linux.
+
+## Usage
+
+Add this tap:
 
 ```bash
 brew tap fradser/brew
 ```
+
+Then install any formula below.
 
 ## Formulae
 
@@ -32,7 +40,7 @@ After installation, add to your `.zshrc`:
 source $(brew --prefix)/share/evalcache/evalcache.plugin.zsh
 ```
 
-Usage:
+Example usage:
 
 ```bash
 # Instead of: eval "$(rbenv init -)"
@@ -41,6 +49,22 @@ _evalcache rbenv init -
 # Instead of: eval "$(hub alias -s)"
 _evalcache hub alias -s
 
-# Clear cache when needed
+# Clear the cache
 _evalcache_clear
 ```
+
+### git-agent
+
+[git-agent](https://github.com/FradSer/git-agent-cli) is an AI-powered git commit agent.
+
+```bash
+brew install fradser/brew/git-agent
+```
+
+## Contributing
+
+To add a new formula, place a `.rb` file in the `Formula/` directory. See the [Homebrew Formula Cookbook](https://docs.brew.sh/Formula-Cookbook) for details.
+
+## License
+
+MIT
