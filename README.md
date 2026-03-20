@@ -12,7 +12,7 @@ brew tap fradser/brew
 
 ### event
 
-CLI tool for managing Apple Reminders and Calendar via EventKit.
+[event](https://github.com/FradSer/event) is a CLI tool for managing Apple Reminders and Calendar via EventKit.
 
 ```bash
 brew install fradser/brew/event
@@ -20,7 +20,7 @@ brew install fradser/brew/event
 
 ### evalcache
 
-Cache the output of binary initialization commands to speed up shell startup.
+[evalcache](https://github.com/mroth/evalcache) caches the output of binary initialization commands to speed up shell startup.
 
 ```bash
 brew install fradser/brew/evalcache
