@@ -7,20 +7,20 @@ class GitAgent < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/FradSer/git-agent-cli/releases/download/v0.1.0/git-agent-darwin-arm64.tar.gz"
-      sha256 "364a9ab092be521f7e153ec3a0b694fb9adaa214389dfdd45f25cc7675d0d08e"
+      sha256 "adf12afa3cdbf7fa1d4289b3664a417629dff374f5100fec2e0e79715eeb4b24"
     else
       url "https://github.com/FradSer/git-agent-cli/releases/download/v0.1.0/git-agent-darwin-amd64.tar.gz"
-      sha256 "7b9d4c1cd1a108f10c4c78ad96a879f60ec7721eeb01ac296d0f4cf5d218a03b"
+      sha256 "28f718549dec59df836a598aac53cc7109e84430b193d59edd52c7edb1c94bdd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/FradSer/git-agent-cli/releases/download/v0.1.0/git-agent-linux-arm64.tar.gz"
-      sha256 "dba59594fb142d560855c227a399c1bfec625f38fe61dbe5957bb96e9eb81ef2"
+      sha256 "ef6cbe522b4ed06c8bfdf06861a52e440bf057ee183bba86714d001574355a70"
     else
       url "https://github.com/FradSer/git-agent-cli/releases/download/v0.1.0/git-agent-linux-amd64.tar.gz"
-      sha256 "2e78f334e03a5901e256abdb26a622c21b376e91e8f935076810349078759519"
+      sha256 "f954bc67387fd8812b0da5edd3a3c50b05fdbb66887c439c4be3d57005c384f3"
     end
   end
 
