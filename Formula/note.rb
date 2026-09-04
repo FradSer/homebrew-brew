@@ -1,26 +1,26 @@
 class Note < Formula
   desc "CLI tool for managing Apple Notes with Cloudflare D1 sync"
   homepage "https://github.com/FradSer/note"
-  version "0.2.0"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FradSer/note/releases/download/v0.2.0/note-darwin-arm64.tar.gz"
-      sha256 "618e4ba64bad4a1ad9de7e17f27de16d0695b4c332346f8a9186daf33f46f8f8"
+      url "https://github.com/FradSer/note/releases/download/v0.3.2/note-darwin-arm64.tar.gz"
+      sha256 "1f989e576df6ecdd6ebb1a813fd1e034f5b907e47232c05a3c9a11a426a2708d"
     else
-      url "https://github.com/FradSer/note/releases/download/v0.2.0/note-darwin-amd64.tar.gz"
-      sha256 "3c8519adfef22c50fa223a38a073809f7e919d609b2cc538c3d79eb136ce75a3"
+      url "https://github.com/FradSer/note/releases/download/v0.3.2/note-darwin-amd64.tar.gz"
+      sha256 "7ce8e91a4eec4c1b78e29a4036b1bb0d38d8758c2fdd814a9d09cdbe6090391e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FradSer/note/releases/download/v0.2.0/note-linux-arm64.tar.gz"
-      sha256 "c16367137c1186285f8033509e3c2921755e94e2bad997bdb4393cb5a4856d39"
+      url "https://github.com/FradSer/note/releases/download/v0.3.2/note-linux-arm64.tar.gz"
+      sha256 "fa1ea79f93872c3ff76cde9ed1d721facdb4e44d85fdd045ab66e824fe1c1b47"
     else
-      url "https://github.com/FradSer/note/releases/download/v0.2.0/note-linux-amd64.tar.gz"
-      sha256 "2fd78d5794af47b9e2fd4787140cd73088040c781d3fda421f202d309dee4f52"
+      url "https://github.com/FradSer/note/releases/download/v0.3.2/note-linux-amd64.tar.gz"
+      sha256 "54be3f7b2315abdb6b68a19de6dc7c718688a73625108639824a346eb60b8116"
     end
   end
 
