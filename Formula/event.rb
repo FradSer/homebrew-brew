@@ -1,26 +1,26 @@
 class Event < Formula
   desc "CLI tool for managing Apple Reminders and Calendar via EventKit"
   homepage "https://github.com/FradSer/event"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FradSer/event/releases/download/v0.7.0/event-darwin-arm64.tar.gz"
-      sha256 "e2c36e758143c06a1d4c1c11367aa8857196a96b71122dc3fe17a36bd82324f4"
+      url "https://github.com/FradSer/event/releases/download/v0.8.0/event-darwin-arm64.tar.gz"
+      sha256 "2b8a78368a7db21f75645d679e81acb8add2b48173da21d0fa1716c0122e2826"
     else
-      url "https://github.com/FradSer/event/releases/download/v0.7.0/event-darwin-amd64.tar.gz"
-      sha256 "f76fd84fe029fc04ee3c9282e64d1c61638631c59107a7bd94da63e76ba459f1"
+      url "https://github.com/FradSer/event/releases/download/v0.8.0/event-darwin-amd64.tar.gz"
+      sha256 "c8a38d001fe2789c25d638def0db35b7ab766e8eed849e53f791f394b92e86b3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FradSer/event/releases/download/v0.7.0/event-linux-arm64.tar.gz"
-      sha256 "84e47a92068b2982679324684a32d6179c58a335dcb544b5f0ef33c122947e57"
+      url "https://github.com/FradSer/event/releases/download/v0.8.0/event-linux-arm64.tar.gz"
+      sha256 "77d1c55695b36c3bec2dfd3e9089ab97d67b82344aeac40a15cc8e802a7b0039"
     else
-      url "https://github.com/FradSer/event/releases/download/v0.7.0/event-linux-amd64.tar.gz"
-      sha256 "5a94709325d008108366d3803655aaac9557b27c5e272b641704dbd786bb50ed"
+      url "https://github.com/FradSer/event/releases/download/v0.8.0/event-linux-amd64.tar.gz"
+      sha256 "1e123db0de3df1043cd5248794f908348ded4968d16a96c24095952c08aefb5b"
     end
   end
 
